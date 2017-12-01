@@ -1,14 +1,34 @@
-
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/testPage"
+    "pages/home/home",
+    "pages/tabBar1/tabbar1",
+    "pages/tabBar2/tabbar2"
   ],
+  "tabBar": {
+    "selectedColor": "rgb(22,147,249)",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "home",
+        "iconPath": "pages/images/ic_contacts_header_phone@2x.png",
+        "selectedIconPath": "pages/images/ic_customerRow_phone@2x.png"
+      },
+      {
+        "pagePath": "pages/tabBar1/tabbar1",
+        "text": "tabbar1",
+        "iconPath": "pages/images/ic_customerDetailHeader_collect_gray@2x.png",
+        "selectedIconPath": "pages/images/ic_customerDetailHeader_collect_blue@2x.png"
+      },
+      {
+        "pagePath": "pages/tabBar2/tabbar2",
+        "text": "tabbar2",
+        "iconPath": "pages/images/message_notificationNomal@3x.png",
+        "selectedIconPath": "pages/images/message_notificationSeleted@3x.png"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTitleText": "hello",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#ffffff"
   }
 }
