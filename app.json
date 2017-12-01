@@ -2,7 +2,8 @@
   "pages": [
     "pages/home/home",
     "pages/tabBar1/tabbar1",
-    "pages/tabBar2/tabbar2"
+    "pages/tabBar2/tabbar2",
+    "pages/index/index"
   ],
   "tabBar": {
     "selectedColor": "rgb(22,147,249)",

@@ -1,11 +1,6 @@
 <!--home.wxml-->
-<View class="container">
-  <View class="item1">1</View>
-  <View class="item1">2</View>
-  <View class="item1">3</View>
-  <View class="item1">4</View>
-  <View class="item1">5</View>
-  <View class="item1">6</View>
-  <View class="item1">7</View>
-  <View class="item1">8</View>
-</View>
+<scroll-view class="container">
+  <View wx:for="{{dataArray}}" bindtap="itemClick" class="item">
+  {{item}}
+  </View>
+</scroll-view>

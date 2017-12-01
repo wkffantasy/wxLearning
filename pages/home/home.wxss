@@ -5,12 +5,10 @@
   width: 100%;
   background-color: red;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column; 
 }
 
-.item1 {
+.item {
   height: 100rpx;
   width: 200rpx;
   background-color: cyan;

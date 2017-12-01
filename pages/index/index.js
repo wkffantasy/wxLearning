@@ -13,14 +13,13 @@ Page({
   },
   bindHelloWorld: function () {
     console.log('click hello world')
-    
   },
   onShareAppMessage: function () {
     console.log('click share button')
   },
 
-  onLoad: function () {
-    console.log('onLoad')
+  onLoad: function (options) {
+    console.log('index view onLoad options==', options)
     var that = this
     //调用应用实例的方法获取全局数据
     app.getUserInfo(function (userInfo) {

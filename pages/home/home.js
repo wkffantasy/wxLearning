@@ -5,7 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    dataArray:[1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+  },
+  itemClick:function(options){
+    console.log("item1Click options==", options)
+    wx.navigateTo({
+      url: '../index/index?title=11',
+    })
   },
 
   /**
